@@ -9,7 +9,7 @@ class FizzBuzzTTestCase {
 	String input1 = fizzBuzz.getNumber1(1);
 	
 	@Test
-	void test1() {
+	void test1_expact1() {
 		assertEquals("1", input1);
 	}
 
